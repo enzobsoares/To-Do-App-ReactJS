@@ -1,0 +1,13 @@
+.withoutTaskToDo{
+    padding: 4rem 0;
+    width: 100%;
+    border-top: 1px solid var(--gray-400);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.withoutTaskToDo img {
+    display: block;
+    margin-bottom: 1rem;
+    margin: 1rem auto;
+}

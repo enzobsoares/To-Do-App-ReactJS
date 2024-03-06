@@ -1,0 +1,86 @@
+.task {
+    width: 100%;
+}
+
+.createTask {
+    margin-top: -1.81rem;
+}
+
+.createTask input{
+    width: 88%;
+    padding: 1rem;
+    border: 1px solid var(--gray-700);
+    border-radius: 8px;
+    background-color: var(--gray-500);
+    color: var(--white);
+    font-size: 1rem;
+    outline: 0;
+}
+
+.createTask button {
+    padding: 1rem;
+    background-color: var(--blue-dark);
+    border-radius: 8px;
+    margin: 0 0.5rem;
+    border: 0;
+    color: var(--white);
+    cursor: pointer;
+}
+
+.createTask button:hover {
+    background-color: var(--blue);
+}
+
+.taskInfo {
+    margin: 4rem 0;
+}
+
+.taskInfo header {
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: 1.5rem;
+    max-width: 100%;
+}
+
+.taskInfo header p{
+    font-weight: bold;
+    color: var(--blue);
+    font-size: 0.87rem;
+}
+
+.taskInfo header p:nth-child(2) {
+    color: var(--purple);
+}
+
+.taskInfo header span{
+    background-color: var(--gray-400);
+    border-radius: 9px;
+    margin-left: 0.5rem; 
+    padding: 0.1rem 0.5rem;
+    color: var(--gray-200);
+    font-size: 0.75rem;
+} 
+
+.tasksToDo {
+    width: 100%;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@media (max-width: 768px) {
+    .createTask {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .createTask input{
+        width: 100%;
+    }
+    
+    .createTask button{
+        margin: 0.5rem 0;
+    }
+}
